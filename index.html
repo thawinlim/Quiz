@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title></title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gundam Movie</title>
+  <link href="Quiz-css.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+ </head>
+
+ <body>
+
+ <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+ <div class="container">
+
+  <!-- Logo -->
+   <a class="navbar-brand" href="#">
+     <img src="Logo SPU SIT/Logo SPU SIT_Color.png" alt="Logo" width="40" height="40">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Logo_Bandai.svg/1280px-Logo_Bandai.svg.png" alt="Logo" width="40" height="40">
+     
+   </a>
+
+  <!-- Collapse Button -->
+   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+
+  <!-- Menu -->
+   <div class="collapse navbar-collapse" id="navbarNav">
+     <ul class="navbar-nav ms-auto">
+
+       <!-- Dropdown -->
+       <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#movies" role="button" data-bs-toggle="dropdown">
+           ภาพยนตร์
+         </a>
+         <ul class="dropdown-menu">
+           <li><a class="dropdown-item" href="#movie1">Mobile Suit Gundam The Movie</a></li>
+           <li><a class="dropdown-item" href="#movie2">Mobile Suit Gundam II: Soldiers of Sorrow</a></li>
+           <li><a class="dropdown-item" href="#movie3">Mobile Suit Gundam: Cucuruz Doan's Island</a></li>
+         </ul>
+       </li>
+
+       <!-- Other Menu -->
+       <li class="nav-item">
+         <a class="nav-link" href="#about">เกี่ยวกับเรา</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="#contact">ติดต่อเรา</a>
+       </li>
+
+     </ul>
+   </div>
+ </div>
+</nav>
+
+<!-- Banner -->
+<section class="banner d-flex align-items-center text-center text-white">
+ <div class="container">
+   <h1 class="display-4 fw-bold">Welcome to Gundam World</h1>
+   <p class="lead">สัมผัสประสบการณ์สุดยิ่งใหญ่ของจักรวาล Mobile Suit Gundam</p>
+ </div>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Movie Section -->
+<section id="movies" class="container my-5">
+ <h2 class="text-center mb-4">ภาพยนตร์แนะนำ</h2>
+
+ <div class="row g-4">
+
+   <!-- Card 1 -->
+   <div class="col-md-4">
+     <div class="card movie-card">
+       <img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11634522_p_v7_aa.jpg" class="card-img-top">
+       <div class="card-body text-center">
+         <h5 class="card-title">Mobile Suit Gundam The Movie</h5>
+         <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#movie1">
+           ดูรายละเอียด
+         </button>
+       </div>
+     </div>
+   </div>
+
+   <!-- Card 2 -->
+   <div class="col-md-4">
+     <div class="card movie-card">
+       <img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11634672_v_v8_af.jpg" class="card-img-top">
+       <div class="card-body text-center">
+         <h5 class="card-title">Soldiers of Sorrow</h5>
+         <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#movie2">
+           ดูรายละเอียด
+         </button>
+       </div>
+     </div>
+   </div>
+
+   <!-- Card 3 -->
+   <div class="col-md-4">
+     <div class="card movie-card">
+       <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/28/CucuruzDoansIslandposter.jpg/250px-CucuruzDoansIslandposter.jpg" class="card-img-top">
+       <div class="card-body text-center">
+         <h5 class="card-title">Cucuruz Doan's Island</h5>
+         <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#movie3">
+           ดูรายละเอียด
+         </button>
+       </div>
+     </div>
+   </div>
+
+ </div>
+</section>
+
+<!-- About Us -->
+<section id="about" class="about-section text-center text-white py-5">
+ <div class="container">
+   <h2>เกี่ยวกับเรา</h2>
+   <p class="mt-3">
+     เว็บไซต์นี้จัดทำขึ้นเพื่อรวบรวมข้อมูลภาพยนตร์จากจักรวาล Mobile Suit Gundam 
+     สำหรับผู้ที่ชื่นชอบหุ่นยนต์และเรื่องราวสงครามอวกาศ 
+     เราคัดสรรเนื้อหาที่น่าสนใจ พร้อมข้อมูลที่เข้าใจง่าย 
+     เพื่อให้คุณได้รับประสบการณ์ที่ดีที่สุดในการรับชมภาพยนตร์
+   </p>
+ </div>
+</section>
+
+<!-- Modal 1 -->
+<div class="modal fade" id="movie1">
+ <div class="modal-dialog modal-lg">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h5>Mobile Suit Gundam The Movie</h5>
+       <button class="btn-close" data-bs-dismiss="modal"></button>
+     </div>
+     <div class="modal-body">
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgH1ynQF-c2TM6kP6W7TqSR9pnqAzykkOOvg&s" class="img-fluid mb-3">
+       <p><strong>ผู้กำกับ:</strong> Yoshiyuki Tomino</p>
+       <p><strong>ตัวละครหลัก:</strong> Amuro Ray, Char Aznable</p>
+       <p><strong>เรื่องย่อ:</strong> เรื่องราวของสงครามระหว่างโลกและอวกาศ ผ่านเด็กหนุ่มที่ต้องกลายเป็นนักบิน Gundam โดยไม่ตั้งใจ</p>
+     </div>
+   </div>
+ </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="modal fade" id="movie2">
+ <div class="modal-dialog modal-lg">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h5>Soldiers of Sorrow</h5>
+       <button class="btn-close" data-bs-dismiss="modal"></button>
+     </div>
+     <div class="modal-body">
+       <img src="https://gundam-official.com/media/_887ab49ed0/_887ab49ed0.png" class="img-fluid mb-3">
+       <p><strong>ผู้กำกับ:</strong> Yoshiyuki Tomino</p>
+       <p><strong>ตัวละครหลัก:</strong> Amuro Ray</p>
+       <p><strong>เรื่องย่อ:</strong> การต่อสู้ที่เข้มข้นขึ้น พร้อมความสูญเสียและการเติบโตของตัวละคร</p>
+     </div>
+   </div>
+ </div>
+</div>
+
+<!-- Modal 3 -->
+<div class="modal fade" id="movie3">
+ <div class="modal-dialog modal-lg">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h5>Cucuruz Doan's Island</h5>
+       <button class="btn-close" data-bs-dismiss="modal"></button>
+     </div>
+     <div class="modal-body">
+       <img src="https://substackcdn.com/image/fetch/$s_!sj8O!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fe4050c5e-7edc-4bf3-b6e0-816e3c411037_1440x1080.jpeg" class="img-fluid mb-3">
+       <p><strong>ผู้กำกับ:</strong> Yoshikazu Yasuhiko</p>
+       <p><strong>ตัวละครหลัก:</strong> Amuro Ray, Cucuruz Doan</p>
+       <p><strong>เรื่องย่อ:</strong> ภารกิจบนเกาะลึกลับที่ซ่อนความลับและความจริงบางอย่างเกี่ยวกับสงคราม</p>
+     </div>
+   </div>
+ </div>
+</div>
+
+<!-- Contact Section -->
+<section id="contact" class="container my-5">
+ <h2 class="text-center mb-4">ติดต่อเรา</h2>
+
+ <div class="row justify-content-center">
+   <div class="col-md-6">
+     <form class="p-4 shadow rounded bg-light">
+
+       <div class="mb-3">
+         <label class="form-label">ชื่อ-นามสกุล</label>
+         <input type="text" class="form-control">
+       </div>
+
+       <div class="mb-3">
+         <label class="form-label">อีเมล</label>
+         <input type="email" class="form-control">
+       </div>
+
+       <div class="mb-3">
+         <label class="form-label">ข้อความ</label>
+         <textarea class="form-control" rows="4"></textarea>
+       </div>
+
+       <div class="text-center">
+         <button class="btn btn-primary">ส่งข้อมูล</button>
+       </div>
+
+     </form>
+   </div>
+ </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer text-center text-white py-4">
+ <div class="container">
+
+   <div class="mb-3">
+     <a href="https://www.facebook.com/thawin.limpukdeekul" target="_blank" class="social-icon">
+       <i class="bi bi-facebook"></i>
+     </a>
+     <a href="https://www.instagram.com/dew_2550/" target="_blank" class="social-icon">
+       <i class="bi bi-instagram"></i>
+     </a>
+     <a href="https://line.me" target="_blank" class="social-icon">
+       <i class="bi bi-line"></i>
+     </a>
+   </div>
+
+   <p class="mb-0">© 2025 Movie By 68105428</p>
+
+ </div>
+</footer>
+
+ </body>
+</html>
